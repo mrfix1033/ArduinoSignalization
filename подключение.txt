@@ -1,0 +1,16 @@
+digital pins:
+8: Speaker+
+9: Button
+10: UV Sensor Trig
+11: UV Sensor Echo
+
+5V:
+UV Sensor Vcc
+Button
+
+GND:
+Speaker-
+Button
+UV Sensor Gnd
+
+на кнопку идет 5V, pin9 подтягивается на землю, но если кнопка нажимается, то на pin9 приходит 5V. чтобы не было короткого замыкания при нажатии, между землей и pin9 ставим резистор
